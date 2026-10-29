@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Basic network device symbols</title><desc id="desc">Study reference icons for client computer, Ethernet switch, router, firewall, internet cloud, server, wireless access point, and printer.</desc>
+<rect width="1200" height="650" rx="24" fill="#f8fafc"/>
+<text x="600" y="52" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#0f172a" text-anchor="middle">BASIC NETWORK DEVICE SYMBOLS</text>
+<text x="600" y="82" font-family="Arial,sans-serif" font-size="16" fill="#475569" text-anchor="middle">Beginner reference • simplified study icons (not official vendor-specific symbols)</text>
+<g font-family="Arial,sans-serif" fill="#0f172a" stroke="#334155" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<!-- client -->
+<g transform="translate(85,125)"><rect x="0" y="0" width="210" height="170" rx="18" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><rect x="55" y="30" width="100" height="66" rx="5" fill="#dbeafe"/><path d="M105 96v18m-25 0h50" fill="none"/><rect x="45" y="121" width="120" height="12" rx="5" fill="#cbd5e1" stroke-width="2"/><text x="105" y="155" text-anchor="middle" font-size="20" stroke="none" font-weight="700">Client / PC</text></g>
+<!-- switch -->
+<g transform="translate(365,125)"><rect x="0" y="0" width="210" height="170" rx="18" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><rect x="30" y="45" width="150" height="54" rx="8" fill="#e0f2fe"/><g fill="#fff" stroke-width="2"><rect x="43" y="59" width="18" height="16"/><rect x="68" y="59" width="18" height="16"/><rect x="93" y="59" width="18" height="16"/><rect x="118" y="59" width="18" height="16"/><rect x="143" y="59" width="18" height="16"/></g><text x="105" y="143" text-anchor="middle" font-size="20" stroke="none" font-weight="700">Switch</text></g>
+<!-- router -->
+<g transform="translate(645,125)"><rect x="0" y="0" width="210" height="170" rx="18" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><rect x="42" y="52" width="126" height="46" rx="23" fill="#dcfce7"/><path d="M57 75h30m-9 -9 9 9 -9 9M153 75h-30m9 -9 -9 9 9 9" fill="none" stroke-width="3"/><text x="105" y="143" text-anchor="middle" font-size="20" stroke="none" font-weight="700">Router</text></g>
+<!-- firewall -->
+<g transform="translate(925,125)"><rect x="0" y="0" width="210" height="170" rx="18" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><path d="M105 28l45 17v34c0 26-20 42-45 53-25-11-45-27-45-53V45z" fill="#fee2e2"/><path d="M82 73l16 16 31-34" fill="none" stroke="#b91c1c"/><text x="105" y="151" text-anchor="middle" font-size="20" stroke="none" font-weight="700">Firewall</text></g>
+<!-- internet -->
+<g transform="translate(85,350)"><rect x="0" y="0" width="210" height="170" rx="18" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><path d="M51 86c-15 0-23-11-23-23s11-24 25-24c8-20 37-23 50-7 18-7 39 6 39 25 18 0 28 13 28 27s-12 25-28 25H51z" fill="#e0e7ff"/><text x="105" y="143" text-anchor="middle" font-size="20" stroke="none" font-weight="700">Internet / WAN</text></g>
+<!-- server -->
+<g transform="translate(365,350)"><rect x="0" y="0" width="210" height="170" rx="18" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><g fill="#e2e8f0"><rect x="58" y="27" width="94" height="32" rx="5"/><rect x="58" y="65" width="94" height="32" rx="5"/></g><g fill="#16a34a" stroke="none"><circle cx="72" cy="43" r="4"/><circle cx="72" cy="81" r="4"/></g><path d="M84 43h52M84 81h52" stroke-width="2"/><text x="105" y="143" text-anchor="middle" font-size="20" stroke="none" font-weight="700">Server</text></g>
+<!-- AP -->
+<g transform="translate(645,350)"><rect x="0" y="0" width="210" height="170" rx="18" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><rect x="65" y="76" width="80" height="17" rx="8" fill="#fef3c7"/><path d="M82 67c13-13 23-13 36 0M69 54c21-22 41-22 62 0" fill="none" stroke="#b45309"/><text x="105" y="143" text-anchor="middle" font-size="20" stroke="none" font-weight="700">Wi-Fi AP</text></g>
+<!-- printer -->
+<g transform="translate(925,350)"><rect x="0" y="0" width="210" height="170" rx="18" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><rect x="61" y="30" width="88" height="28" fill="#f1f5f9"/><rect x="48" y="58" width="114" height="46" rx="8" fill="#e2e8f0"/><rect x="66" y="91" width="78" height="28" fill="#fff"/><circle cx="145" cy="74" r="4" fill="#16a34a" stroke="none"/><text x="105" y="147" text-anchor="middle" font-size="20" stroke="none" font-weight="700">Printer</text></g>
+</g>
+<text x="600" y="585" font-family="Arial,sans-serif" font-size="17" fill="#334155" text-anchor="middle">Quick reminder: switch → local frames/MAC • router → IP packets between networks • firewall → security rules</text>
+<text x="600" y="615" font-family="Arial,sans-serif" font-size="14" fill="#64748b" text-anchor="middle">Educational illustrations created for this repository.</text>
+</svg>
