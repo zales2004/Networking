@@ -6,6 +6,8 @@ A beginner-friendly networking learning repository with structured lesson notes 
 
 - [Read the Day 01 study note](./Day-01-Network-Fundamentals/README.md)
 - [View the network device symbol sheet](./Day-01-Network-Fundamentals/network-device-symbols.svg)
+- [Read the Packet Tracer lab guide](./Day-01-Network-Fundamentals/Packet-Tracer-Lab-Guide.md)
+- Packet Tracer project file: upload `Day 01 Lab - Packet Tracer Introduction.pkt` to this folder using GitHub **Add file → Upload files**.
 
 ## Learning approach
 
