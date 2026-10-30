@@ -8,24 +8,23 @@ These notes summarize the concepts covered in the lesson in a structured format 
 
 ## Contents
 
-2. [Interfaces, ports, RJ-45 and Ethernet](#2-interfaces-ports-rj-45-and-ethernet)
-3. [Standards and interoperability](#3-standards-and-interoperability)
-4. [Bits, bytes and network speed](#4-bits-bytes-and-network-speed)
-5. [Copper Ethernet and IEEE 802.3](#5-copper-ethernet-and-ieee-8023)
-6. [UTP cable construction and twisted pairs](#6-utp-cable-construction-and-twisted-pairs)
-7. [Straight-through and crossover cables](#7-straight-through-and-crossover-cables)
-8. [T568A and T568B pinouts](#8-t568a-and-t568b-pinouts)
-9. [MDI, MDIX and Auto MDI-X](#9-mdi-mdix-and-auto-mdi-x)
-10. [Gigabit Ethernet pin usage](#10-gigabit-ethernet-pin-usage)
-11. [Fiber-optic cabling](#11-fiber-optic-cabling)
-12. [Single-mode vs multimode fiber](#12-single-mode-vs-multimode-fiber)
-13. [Choosing copper or fiber](#13-choosing-copper-or-fiber)
-14. [Practical Packet Tracer lab](#14-practical-packet-tracer-lab)
-15. [Troubleshooting checklist](#15-troubleshooting-checklist)
-16. [Exam revision sheet](#16-exam-revision-sheet)
-17. [Knowledge check and answers](#17-knowledge-check-and-answers)
-18. [Glossary](#18-glossary)
-
+1. [Interfaces, ports, RJ-45 and Ethernet](#1-interfaces-ports-rj-45-and-ethernet)
+2. [Standards and interoperability](#2-standards-and-interoperability)
+3. [Bits, bytes and network speed](#3-bits-bytes-and-network-speed)
+4. [Copper Ethernet and IEEE 802.3](#4-copper-ethernet-and-ieee-8023)
+5. [UTP cable construction and twisted pairs](#5-utp-cable-construction-and-twisted-pairs)
+6. [Straight-through and crossover cables](#6-straight-through-and-crossover-cables)
+7. [T568A and T568B pinouts](#7-t568a-and-t568b-pinouts)
+8. [MDI, MDIX and Auto MDI-X](#8-mdi-mdix-and-auto-mdi-x)
+9. [Gigabit Ethernet pin usage](#9-gigabit-ethernet-pin-usage)
+10. [Fiber-optic cabling](#10-fiber-optic-cabling)
+11. [Single-mode vs multimode fiber](#11-single-mode-vs-multimode-fiber)
+12. [Choosing copper or fiber](#12-choosing-copper-or-fiber)
+13. [Practical Packet Tracer lab](#13-practical-packet-tracer-lab)
+14. [Troubleshooting checklist](#14-troubleshooting-checklist)
+15. [Exam revision sheet](#15-exam-revision-sheet)
+16. [Knowledge check and answers](#16-knowledge-check-and-answers)
+17. [Glossary](#17-glossary)
 ---
 
 ## 1. Interfaces, ports, RJ-45 and Ethernet
