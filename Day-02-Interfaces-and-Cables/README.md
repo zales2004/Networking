@@ -102,7 +102,14 @@ A link's advertised speed is a signaling/data-rate capability, not a promise tha
 
 A large part of traditional Ethernet LAN cabling uses **twisted-pair copper cable** terminated with modular Ethernet plugs. IEEE 802.3 is the major family of standards associated with Ethernet.
 
-Ethernet names often encode the technology's rate and medium. Common examples include:
+Ethernet names often encode the technology's rate and medium. For example, in **100BASE-TX**:
+
+- **100** indicates a nominal rate of 100 megabits per second.
+- **BASE** means baseband signaling: the Ethernet signal uses the medium for that link rather than dividing it into multiple broadband channels.
+- **T** indicates twisted-pair copper.
+- **TX** identifies the particular Fast Ethernet physical-layer variant.
+
+This naming pattern is useful, but not every Ethernet standard uses exactly the same suffix. Read the full standard name and check the equipment specifications. Common examples include:
 
 | Ethernet name | Nominal rate | Typical copper medium / notes |
 |---|---:|---|
@@ -184,6 +191,14 @@ T568A and T568B are two recognized wiring schemes for terminating twisted-pair c
 
 These colours assume the usual North American T568A/T568B colour code. When reading a plug, make sure you orient it consistently and identify pin 1 correctly; reversing the view can make the sequence appear backwards.
 
+### Termination and testing tips
+
+- Keep the same chosen standard at both ends for a normal straight-through patch cable.
+- Use T568A on one end and T568B on the other only when intentionally making the common crossover arrangement.
+- Check that every conductor reaches the end of the plug and that the outer jacket is held securely by the plug's strain-relief/crimp area.
+- A visual check is not enough to prove that a cable is correctly wired. A cable tester can reveal opens, shorts, reversed conductors and split-pair problems.
+- Avoid excessive untwisting near the termination; preserve the pair twists as close to the contacts as the termination system allows.
+
 ### How they make a cable
 
 - **T568A at both ends:** straight-through.
@@ -191,6 +206,19 @@ These colours assume the usual North American T568A/T568B colour code. When read
 - **T568A at one end and T568B at the other:** crossover.
 
 A crossover does not mean the cable is damaged or randomly wired. It is intentionally terminated with a different standard at each end.
+
+### A quick memory rule
+
+For classic Ethernet interfaces, think about the signal paths: **transmit at one end must reach receive at the other end**. A straight-through cable keeps pin numbers aligned; a crossover cable swaps the relevant pair positions. This explains the traditional recommendations better than memorizing device names alone.
+
+| Traditional connection | Traditional cable choice | Reason |
+|---|---|---|
+| PC to switch | Straight-through | End-host MDI to switch MDIX |
+| Router to switch | Straight-through | Traditional unlike interface types |
+| PC to PC directly | Crossover | Traditional like interface types |
+| Switch to switch | Crossover | Traditional like interface types |
+
+These are classic exam rules. Auto MDI-X can remove the need to choose the cable based on interface type when both ends support it.
 
 ### Why does pair crossing matter?
 
@@ -227,6 +255,12 @@ This matters when making or troubleshooting a cable. A cable may appear to work 
 Fiber-optic cable carries information as **pulses of light**, rather than electrical signals through copper conductors.
 
 A fiber link generally needs compatible optical interfaces or transceivers at both ends. On network switches and routers, these may be pluggable modules such as SFP or SFP+ modules, depending on the device and data rate. The connector, optical wavelength, fiber type and transceiver must be compatible.
+
+### Fiber connectors and link direction
+
+Common fiber connector names include **LC** and **SC**. The connector must physically fit the port or patch panel, but connector shape alone does not guarantee compatibility. The optical transceivers must also support the same Ethernet standard, fiber type and wavelength, and the link must stay within its supported optical budget.
+
+Many fiber Ethernet links use two strands in a duplex arrangement: one strand carries transmit (TX) from one endpoint toward the other endpoint's receive (RX), while the second strand carries traffic in the opposite direction. Some specialized optics can transmit and receive over one strand using different wavelengths, so always follow the transceiver's specification.
 
 ### Why use fiber?
 
@@ -273,6 +307,8 @@ The two major fiber categories discussed are **single-mode fiber (SMF)** and **m
 | Main selection rule | Match the link's distance and optics | Match the link's distance and optics |
 
 Distance is not determined by the fiber label alone. The supported rate and maximum reach depend on the exact Ethernet optical standard, transceiver, wavelength, fiber specification and link budget. Always verify the manufacturer's specifications.
+
+**Practical selection rule:** choose the Ethernet optical standard and transceivers for the required data rate and distance first, then confirm that the installed fiber type and connectors are supported at both ends. Do not assume that two modules work together just because they both fit an SFP-shaped slot.
 
 ## 12. Choosing copper or fiber
 
