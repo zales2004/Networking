@@ -2,14 +2,12 @@
 
 > **Course:** Jeremy's IT Lab — Free CCNA 200-301  
 > **Video:** [Free CCNA | Interfaces and Cables | Day 2](https://youtu.be/ieTH5lVhNaY)  
-> **Video length:** approximately 35 minutes 52 seconds  
 > **Learning goal:** Understand Ethernet ports and standards, bits and bytes, copper Ethernet cabling and pinouts, straight-through vs crossover cables, Auto MDI-X, fiber-optic cables, and how to choose an appropriate cable for a network connection.
 
-These notes are written as a detailed study guide in my own words, organized around the lesson topics and quiz concepts. Use the timestamps to revisit the matching part of the video.
+These notes summarize the concepts covered in the lesson in a structured format for learning, revision, and hands-on practice.
 
 ## Contents
 
-1. [Lesson map and timestamps](#1-lesson-map-and-timestamps)
 2. [Interfaces, ports, RJ-45 and Ethernet](#2-interfaces-ports-rj-45-and-ethernet)
 3. [Standards and interoperability](#3-standards-and-interoperability)
 4. [Bits, bytes and network speed](#4-bits-bytes-and-network-speed)
@@ -30,26 +28,7 @@ These notes are written as a detailed study guide in my own words, organized aro
 
 ---
 
-## 1. Lesson map and timestamps
-
-The video follows this order:
-
-| Approx. timestamp | Topic |
-|---|---|
-| 00:00 | Introduction to interfaces and cables |
-| 00:53 | RJ-45 ports and Ethernet |
-| 03:07 | Why standards matter; bits and bytes |
-| 06:47 | Copper Ethernet standards (IEEE 802.3) |
-| 09:11 | UTP pinouts; straight-through vs crossover |
-| 18:08 | Auto MDI-X and Gigabit Ethernet pinouts |
-| 20:24 | Fiber-optic cables and standards |
-| 26:28 | UTP copper vs fiber comparison |
-| 28:02 | Review quiz |
-| 35:10 onward | Final recap and conclusion |
-
-Timestamps can vary slightly depending on playback and caption timing.
-
-## 2. Interfaces, ports, RJ-45 and Ethernet
+## 1. Interfaces, ports, RJ-45 and Ethernet
 
 ### What is an interface?
 
@@ -79,7 +58,7 @@ A computer typically connects through a **Network Interface Card (NIC)** or buil
 
 **Remember:** a port is the connection point; the cable is the medium; Ethernet is the technology/standard family used to communicate over that connection.
 
-## 3. Standards and interoperability
+## 1. Standards and interoperability
 
 Network equipment is made by many different vendors. Standards let equipment from different manufacturers work together.
 
@@ -99,7 +78,7 @@ Standards define agreed requirements such as:
 
 When selecting a cable, check both ends of the connection: the connector type, the supported Ethernet speed, the medium (copper or fiber), and the interface modules required. A cable that fits physically is not automatically guaranteed to support the desired speed or distance.
 
-## 4. Bits, bytes and network speed
+## 1. Bits, bytes and network speed
 
 Link speeds are normally stated in **bits per second (bit/s or bps)**.
 
@@ -120,7 +99,7 @@ Because a byte contains 8 bits, a theoretical 100 Mbps link corresponds to at mo
 
 A link's advertised speed is a signaling/data-rate capability, not a promise that an application will achieve that exact throughput. Actual throughput depends on protocol overhead, the remote endpoint, congestion, latency, hardware and other factors.
 
-## 5. Copper Ethernet and IEEE 802.3
+## 1. Copper Ethernet and IEEE 802.3
 
 A large part of traditional Ethernet LAN cabling uses **twisted-pair copper cable** terminated with modular Ethernet plugs. IEEE 802.3 is the major family of standards associated with Ethernet.
 
@@ -139,7 +118,7 @@ The exact cable category, link length, port capability and installation quality 
 
 Modern switched Ethernet links commonly operate in **full-duplex** mode: each side can transmit and receive at the same time. This is different from older shared, half-duplex Ethernet environments where collisions could occur. Full duplex requires a compatible link configuration at both ends.
 
-## 6. UTP cable construction and twisted pairs
+## 1. UTP cable construction and twisted pairs
 
 **UTP** means **Unshielded Twisted Pair**. The cable contains insulated copper conductors grouped into pairs, with the two wires in each pair twisted together. A typical Ethernet cable has four pairs, or eight conductors.
 
@@ -155,7 +134,7 @@ Why twist the wires?
 
 You may encounter labels such as Cat 5e, Cat 6 and Cat 6A. The category indicates cabling performance requirements, including frequency-related characteristics and support for specified applications when installed correctly. Do not choose a cable solely by appearance: check the category marking and the requirement for the intended Ethernet rate.
 
-## 7. Straight-through and crossover cables
+## 1. Straight-through and crossover cables
 
 The difference between these cable types is the wiring arrangement at the two ends.
 
@@ -187,7 +166,7 @@ The traditional rule is a useful exam concept, but it is not a universal rule fo
 
 Do not memorize “same device = crossover” as an unconditional modern rule. Learn the historical pinout logic, then check whether the connected ports support Auto MDI-X. In modern networks, a correctly made straight-through cable often works for connections that historically required a crossover cable.
 
-## 8. T568A and T568B pinouts
+## 1. T568A and T568B pinouts
 
 T568A and T568B are two recognized wiring schemes for terminating twisted-pair cabling. The orange and green pairs swap positions between the schemes; the blue and brown pairs stay in the same pin positions.
 
@@ -218,7 +197,7 @@ A crossover does not mean the cable is damaged or randomly wired. It is intentio
 
 For classic 10/100BASE-T Ethernet, one pair is used for transmit and another for receive on an MDI interface. A crossover cable connects the transmit pair of one end to the receive pair of the other. A straight-through cable preserves the same pin mapping.
 
-## 9. MDI, MDIX and Auto MDI-X
+## 1. MDI, MDIX and Auto MDI-X
 
 These terms explain why the historical cable rules exist.
 
@@ -232,7 +211,7 @@ If two devices are connected using a cable type that would traditionally be cons
 
 If a link does not come up, check the interface capabilities and configuration instead of assuming Auto MDI-X is present.
 
-## 10. Gigabit Ethernet pin usage
+## 1. Gigabit Ethernet pin usage
 
 A key distinction between 10/100BASE-T and 1000BASE-T:
 
@@ -244,7 +223,7 @@ This matters when making or troubleshooting a cable. A cable may appear to work 
 
 **Do not confuse “uses all four pairs” with “has four wires.”** Four pairs means eight individual conductors.
 
-## 11. Fiber-optic cabling
+## 1. Fiber-optic cabling
 
 Fiber-optic cable carries information as **pulses of light**, rather than electrical signals through copper conductors.
 
@@ -264,7 +243,7 @@ A fiber link generally needs compatible optical interfaces or transceivers at bo
 - Do not look into the end of a fiber or optical transceiver. Invisible optical light may be present.
 - A fiber patch cable must match the optical interface and fiber type being used.
 
-## 12. Single-mode vs multimode fiber
+## 1. Single-mode vs multimode fiber
 
 The two major fiber categories discussed are **single-mode fiber (SMF)** and **multimode fiber (MMF)**.
 
@@ -296,7 +275,7 @@ The two major fiber categories discussed are **single-mode fiber (SMF)** and **m
 
 Distance is not determined by the fiber label alone. The supported rate and maximum reach depend on the exact Ethernet optical standard, transceiver, wavelength, fiber specification and link budget. Always verify the manufacturer's specifications.
 
-## 13. Choosing copper or fiber
+## 1. Choosing copper or fiber
 
 There is no single best medium for every network link. Choose based on endpoints, distance, rate, environment, cost and available ports.
 
@@ -316,7 +295,7 @@ If a company needs to connect many end hosts to a switch located in a wiring cab
 
 Single-mode and multimode fiber are not the default answer for ordinary endpoint drops in this scenario, although fiber can be appropriate where distance, bandwidth, interference or network design requires it.
 
-## 14. Practical Packet Tracer lab
+## 1. Practical Packet Tracer lab
 
 **Goal:** practise identifying interfaces and selecting a cable. Packet Tracer's device models may simplify physical details, so use it to learn the connection workflow and link-state checks.
 
@@ -359,7 +338,7 @@ Single-mode and multimode fiber are not the default answer for ordinary endpoint
 - The observed link state and ping result.
 - Any troubleshooting steps needed.
 
-## 15. Troubleshooting checklist
+## 1. Troubleshooting checklist
 
 If an Ethernet link does not come up, check:
 
@@ -374,7 +353,7 @@ If an Ethernet link does not come up, check:
 9. **Layer 3 settings:** If the link is up but ping fails, check IP addresses, subnet masks, firewall settings and whether the devices should be able to communicate.
 10. **Test method:** Retry a first ping if address resolution may be needed; distinguish a physical-link problem from an IP configuration problem.
 
-## 16. Exam revision sheet
+## 1. Exam revision sheet
 
 - **Interface/port:** connection point on a device.
 - **RJ-45 (common term):** familiar modular connector used for twisted-pair Ethernet.
@@ -394,7 +373,7 @@ If an Ethernet link does not come up, check:
 - **Same office floor, many PCs to switch:** UTP is the expected choice for ordinary endpoint cabling.
 - **Always match:** cable, connector, interface, transceiver and Ethernet standard.
 
-## 17. Knowledge check and answers
+## 1. Knowledge check and answers
 
 Try answering before revealing the answers.
 
@@ -442,7 +421,7 @@ Try answering before revealing the answers.
 19. No. The link can be up while IP settings, firewall rules, endpoint state or other configuration prevents ping.
 20. Support varies by equipment and configuration; verify port capabilities rather than relying on assumptions.
 
-## 18. Glossary
+## 1. Glossary
 
 | Term | Meaning |
 |---|---|
