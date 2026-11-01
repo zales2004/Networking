@@ -2,10 +2,21 @@
 
 A beginner-friendly networking learning repository with structured lesson notes and hands-on practice, built while studying networking fundamentals and progressing toward cybersecurity/SOC skills.
 
-## Day 01 — Network Fundamentals & Network Devices
+## Study notes
+
+### Day 01 — Network Fundamentals & Network Devices
 
 - [Read the Day 01 study note](./Day-01-Network-Fundamentals/README.md)
 - [View the network device symbol sheet](./Day-01-Network-Fundamentals/network-device-symbols.svg)
+
+### Day 02 — Interfaces and Cables
+
+- [Read the Day 02 study note](./Day-02-Interfaces-and-Cables/README.md)
+
+### Day 03 — The TCP/IP Model and OSI Reference Model
+
+- [Read the Day 03 study note](./Day-03-TCP-IP-and-OSI-Models/README.md)
+- Topics include protocols and standards, the five-layer TCP/IP model, encapsulation and decapsulation, PDUs, layer interaction, and the seven-layer OSI model.
 
 ## Learning approach
 
@@ -15,13 +26,12 @@ Lessons aim to explain concepts simply, include practical exercises, and connect
 
 ## Roadmap
 
-- Day 01: Network fundamentals and network devices
-- Day 02: Ethernet, MAC addresses, ARP, and LAN communication
-- Next: IPv4 addressing and subnet masks
-- Next: TCP/IP and OSI models
-- Next: TCP, UDP, ports, and common protocols
-- Next: Switching, VLANs, routing, and default gateways
-- Next: DNS, DHCP, NAT, and firewalls
-- Next: Cisco Packet Tracer labs and troubleshooting
-- Next: Wireshark and network traffic analysis
-
+- [x] Day 01: Network fundamentals and network devices
+- [x] Day 02: Interfaces, Ethernet cables, and cabling standards
+- [x] Day 03: TCP/IP and OSI models
+- [ ] IPv4 addressing and subnet masks
+- [ ] TCP, UDP, ports, and common protocols
+- [ ] Switching, VLANs, routing, and default gateways
+- [ ] DNS, DHCP, NAT, and firewalls
+- [ ] Cisco Packet Tracer labs and troubleshooting
+- [ ] Wireshark and network traffic analysis
