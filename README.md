@@ -18,6 +18,11 @@ A beginner-friendly networking learning repository with structured lesson notes 
 - [Read the Day 03 study note](./Day-03-TCP-IP-and-OSI-Models/README.md)
 - Topics include protocols and standards, the five-layer TCP/IP model, encapsulation and decapsulation, PDUs, layer interaction, and the seven-layer OSI model.
 
+### Day 04 — Introduction to the Cisco IOS CLI
+
+- [Read the Day 04 study note](./Day-04-Introduction-to-Cisco-IOS-CLI/README.md)
+- Topics include CLI access, Cisco IOS command modes, context-sensitive help, command shortcuts, basic device configuration, passwords, and saving configurations.
+
 ## Learning approach
 
 **Learn → Draw → Configure → Test → Troubleshoot → Document**
@@ -29,6 +34,7 @@ Lessons aim to explain concepts simply, include practical exercises, and connect
 - [x] Day 01: Network fundamentals and network devices
 - [x] Day 02: Interfaces, Ethernet cables, and cabling standards
 - [x] Day 03: TCP/IP and OSI models
+- [x] Day 04: Introduction to the Cisco IOS CLI
 - [ ] IPv4 addressing and subnet masks
 - [ ] TCP, UDP, ports, and common protocols
 - [ ] Switching, VLANs, routing, and default gateways
