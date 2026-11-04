@@ -23,6 +23,11 @@ A beginner-friendly networking learning repository with structured lesson notes 
 - [Read the Day 04 study note](./Day-04-Introduction-to-Cisco-IOS-CLI/README.md)
 - Topics include CLI access, Cisco IOS command modes, context-sensitive help, command shortcuts, basic device configuration, passwords, and saving configurations.
 
+### Day 05 — Ethernet LAN Switching (Part 1)
+
+- [Read the Day 05 study note](./Day-05-Ethernet-LAN-Switching-Part-1/README.md)
+- Topics include MAC addresses, MAC address learning, forwarding and flooding, collision and broadcast domains, switch verification commands, and a practical learning lab.
+
 ## Learning approach
 
 **Learn → Draw → Configure → Test → Troubleshoot → Document**
@@ -35,6 +40,7 @@ Lessons aim to explain concepts simply, include practical exercises, and connect
 - [x] Day 02: Interfaces, Ethernet cables, and cabling standards
 - [x] Day 03: TCP/IP and OSI models
 - [x] Day 04: Introduction to the Cisco IOS CLI
+- [x] Day 05: Ethernet LAN switching (Part 1)
 - [ ] IPv4 addressing and subnet masks
 - [ ] TCP, UDP, ports, and common protocols
 - [ ] Switching, VLANs, routing, and default gateways
