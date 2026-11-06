@@ -33,6 +33,11 @@ A beginner-friendly networking learning repository with structured lesson notes 
 - [Read the Day 06 study note](./Day-06-Ethernet-LAN-Switching-Part-2/README.md)
 - Topics include Ethernet frame size and padding, EtherType, ARP requests and replies, ARP and MAC address tables, ICMP ping, Wireshark packet analysis, and Cisco switch MAC-table commands.
 
+### Day 07 — IPv4 Addressing (Part 1)
+
+- [Read the Day 07 study note](./Day-07-IPv4-Addressing-Part-1/README.md)
+- Topics include IPv4 structure, binary and decimal conversion, network and host portions, traditional address classes, loopback, subnet masks, network addresses, and broadcast addresses.
+
 ## Learning approach
 
 **Learn → Draw → Configure → Test → Troubleshoot → Document**
@@ -47,7 +52,8 @@ Lessons aim to explain concepts simply, include practical exercises, and connect
 - [x] Day 04: Introduction to the Cisco IOS CLI
 - [x] Day 05: Ethernet LAN switching (Part 1)
 - [x] Day 06: Ethernet LAN switching (Part 2)
-- [ ] IPv4 addressing and subnet masks
+- [x] Day 07: IPv4 addressing (Part 1)
+- [ ] IPv4 addressing and subnet masks (continued)
 - [ ] TCP, UDP, ports, and common protocols
 - [ ] Switching, VLANs, routing, and default gateways
 - [ ] DNS, DHCP, NAT, and firewalls
