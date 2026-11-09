@@ -38,6 +38,11 @@ A beginner-friendly networking learning repository with structured lesson notes 
 - [Read the Day 07 study note](./Day-07-IPv4-Addressing-Part-1/README.md)
 - Topics include IPv4 structure, binary and decimal conversion, network and host portions, traditional address classes, loopback, subnet masks, network addresses, and broadcast addresses.
 
+### IPv4 Subnet Mask — Quick Reference
+
+- [Read the IPv4 subnet mask reference](./IPv4-Subnet-Mask-Reference/README.md)
+- Explains CIDR prefixes, dotted-decimal masks, network and host portions, usable host ranges, and the `192.168.1.0/24` example.
+
 ## Learning approach
 
 **Learn → Draw → Configure → Test → Troubleshoot → Document**
