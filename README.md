@@ -38,9 +38,9 @@ A beginner-friendly networking learning repository with structured lesson notes 
 - [Read the Day 07 study note](./Day-07-IPv4-Addressing-Part-1/README.md)
 - Topics include IPv4 structure, binary and decimal conversion, network and host portions, traditional address classes, loopback, subnet masks, network addresses, and broadcast addresses.
 
-### IPv4 Subnet Mask — Quick Reference
+### Day 08 — IPv4 Subnet Mask — Quick Reference
 
-- [Read the IPv4 subnet mask reference](./IPv4-Subnet-Mask-Reference/README.md)
+- [Read the Day 08 subnet mask reference](./IPv4-Subnet-Mask-Reference/README.md)
 - Explains CIDR prefixes, dotted-decimal masks, network and host portions, usable host ranges, and the `192.168.1.0/24` example.
 
 ### Day 09 — Switch Interfaces
@@ -63,7 +63,7 @@ Lessons aim to explain concepts simply, include practical exercises, and connect
 - [x] Day 05: Ethernet LAN switching (Part 1)
 - [x] Day 06: Ethernet LAN switching (Part 2)
 - [x] Day 07: IPv4 addressing (Part 1)
-- [ ] IPv4 addressing and subnet masks (continued)
+- [x] Day 08: IPv4 subnet mask reference
 - [ ] TCP, UDP, ports, and common protocols
 - [ ] Switching, VLANs, routing, and default gateways
 - [ ] DNS, DHCP, NAT, and firewalls
