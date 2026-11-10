@@ -40,7 +40,7 @@ A beginner-friendly networking learning repository with structured lesson notes 
 
 ### Day 08 — IPv4 Subnet Mask — Quick Reference
 
-- [Read the Day 08 subnet mask reference](./IPv4-Subnet-Mask-Reference/README.md)
+- [Read the Day 08 subnet mask reference](./Day-08-IPv4-Subnet-Mask-Reference/README.md)
 - Explains CIDR prefixes, dotted-decimal masks, network and host portions, usable host ranges, and the `192.168.1.0/24` example.
 
 ### Day 09 — Switch Interfaces
