@@ -43,6 +43,11 @@ A beginner-friendly networking learning repository with structured lesson notes 
 - [Read the IPv4 subnet mask reference](./IPv4-Subnet-Mask-Reference/README.md)
 - Explains CIDR prefixes, dotted-decimal masks, network and host portions, usable host ranges, and the `192.168.1.0/24` example.
 
+### Day 09 — Switch Interfaces
+
+- [Read the Day 09 study note](./Day-09-Switch-Interfaces/README.md)
+- Topics include switch interface states, speed and duplex, autonegotiation, interface descriptions, disabling unused ports, CSMA/CD, collision domains, and interface error counters.
+
 ## Learning approach
 
 **Learn → Draw → Configure → Test → Troubleshoot → Document**
